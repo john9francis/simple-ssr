@@ -12,7 +12,6 @@ app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
   res.render('index')
-  console.log('a client connected')
 })
 
 // socket.io stuff
