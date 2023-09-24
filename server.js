@@ -14,8 +14,6 @@ hello.default()
 // set up ejs as view engine
 app.set('view engine', 'ejs')
 
-// serve the client-side code
-
 app.get('/', (req, res) => {
   res.render('index')
 })
