@@ -5,6 +5,12 @@ const io = require('socket.io')(http)
 
 const port = 3000
 
+// imports
+const hello = require('./build/app')
+
+// testing the imported function
+hello.default()
+
 // set up ejs as view engine
 app.set('view engine', 'ejs')
 

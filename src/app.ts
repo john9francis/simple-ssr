@@ -1,1 +1,3 @@
-console.log("Hello ts world!")
+export default function Hello() {
+  console.log("Hello ts world!")
+}
